@@ -1,0 +1,258 @@
+  @import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Aoboshi+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Bubblegum+Sans&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Andika&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Atma:wght@600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Ubuntu&display=swap');
+
+  body {
+      padding: 0;
+      margin: 0;
+      background: #392467;
+      overflow-x: hidden;
+      /* overflow-y: hidden; */
+  }
+
+  nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+
+  nav ul li a {
+      text-decoration: none;
+      font-family: 'Aoboshi One', serif;
+      color: white;
+      font-size: 25px;
+  }
+
+  nav ul li {
+      list-style: none;
+  }
+
+  nav ul {
+      gap: 90px;
+      display: flex;
+      margin-left: 46px;
+  }
+
+  .downloadcv a {
+      position: absolute;
+      right: 32px;
+      top: 15px;
+      list-style: none;
+      text-decoration: none;
+      /* font-family: 'Aclonica', sans-serif; */
+      font-size: 25PX;
+      color: white;
+      font-family: 'Aoboshi One', serif;
+      transition: all 0.4s ease-in-out;
+  }
+
+  .downloadcv a:hover {
+      transform: scale(1.09);
+      transition: all 0.4s ease-in-out;
+  }
+
+  .downloadcv img {
+      width: 220px;
+      position: relative;
+      /* left: 37px; */
+      right: 8px;
+      top: 2px;
+      /* height: 41px;*/
+      transition: all 0.5s ease-in-out;
+  }
+
+  .banner a img {
+      width: 11%;
+      position: absolute;
+      left: 3%;
+      top: 75px;
+  }
+
+  .banner h2 {
+      position: absolute;
+      top: 25px;
+      font-family: 'Amaranth', sans-serif;
+      color: white;
+      font-weight: 300;
+      top: 18%;
+      left: 18%;
+      font-size: 20px;
+  }
+
+
+  .section h4 {
+      font-family: 'Aoboshi One', serif;
+      font-size: 15px;
+      color: white;
+      font-weight: 400;
+      margin: 0;
+  }
+
+  .connect {
+      display: flex;
+      position: absolute;
+      top: 29%;
+      right: 2%;
+      align-items: center;
+
+  }
+
+  .connectimg {
+      display: flex;
+      align-items: center;
+      position: relative;
+      margin-top: 9px;
+      gap: 4px;
+
+  }
+
+  .connectimg li a {
+      text-decoration: none;
+  }
+
+  .connectimg li {
+      list-style: none;
+      text-decoration: none;
+  }
+
+  #link img {
+      width: 25px;
+  }
+
+  #x img {
+      width: 19px;
+  }
+
+  .connectimg {
+      margin-left: 5px;
+  }
+
+  .connectimg img {
+      width: 20px;
+  }
+
+  .heading h1 {
+
+      color: white;
+      font-size: 70px;
+      margin: 0;
+      font-weight: 400;
+      letter-spacing: 3px;
+      /* font-family: 'Aclonica', sans-serif; */
+      font-family: 'Black Ops One', sans-serif;
+      text-shadow: 0px 8px 40px rgba(255, 255, 255, 0.316);
+  }
+
+  .heading h2 {
+      font-size: 50px;
+      margin: 0;
+      letter-spacing: 3px;
+      font-weight: 400;
+      font-family: 'Aclonica', sans-serif;
+      font-family: 'Black Ops One', sans-serif;
+      color: white;
+      text-shadow: 0px 8px 40px rgba(255, 255, 255, 0.316);
+      
+    }
+
+  .heading {
+      position: relative;
+      top: 80px;
+      left: 15%;
+  }
+
+  .iknow {
+      position: absolute;
+      right: 90px;
+      align-items: center;
+  }
+
+  .iknow h1 {
+      font-family: 'Bubblegum Sans', sans-serif;
+      color: white;
+      font-weight: 300;
+  }
+
+  .know {
+      display: flex;
+      justify-content: center
+  }
+
+  .img {
+      display: flex;
+      justify-content: center;
+  }
+
+  .img img {
+      width: 60px;
+  }
+
+  .overlay {
+      position: relative;
+      top: 15rem;
+      left: 11rem;
+      width: 1000px;
+      border-radius: 30px;
+      height: 350px;
+      background-color: #5D3587;
+      margin-bottom: 30px;
+  }
+
+  .about {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin: 0;
+  }
+
+  .about h1 {
+      color: #FFF;
+      margin: 0;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-family: 'Aclonica', sans-serif;
+      font-size: 2.5rem;
+      text-shadow: 0px 8px 40px rgba(0, 0, 0, 0.25);
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+  }
+
+  .aboutcontent h1 {
+      color: #D2D2D2;
+      margin: 0;
+      text-align: center;
+      text-shadow: 0px 8px 40px rgba(0, 0, 0, 0.25);
+      font-family: 'Aldrich', sans-serif;
+      font-size: 1.8rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+  }
+
+  .aboutcontent p {
+      font-family: 'Andika', sans-serif;
+      color: #fff;
+  }
+
+  .aboutcontent ul li {
+      font-family: 'Andika', sans-serif;
+      color: #fff
+  }
+
+  .marquee {
+      position: relative;
+      top: 213px;
+  }
+
+  .marquee h1 {
+      font-size: 5rem;
+
+      color: #ffffff73;
+  }
