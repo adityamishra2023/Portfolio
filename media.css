@@ -1,0 +1,30 @@
+@media (min-width:768px) and (max-width:920px) {
+    nav ul {
+        gap: 50px;
+        margin-left: 0px;
+    }
+
+    .iknow {
+        position: relative;
+        right: 0px;
+        align-items: center;
+        /* top: 20px; */
+        margin-top: 20%;
+    }
+    #aditya img{
+        width: 11%;
+    }
+    .connect{
+        top: 24%;
+    }
+    .banner h2{
+        font-size: 16px;
+        top: 16%;
+    }   
+    .banner {
+        height: 113px;
+    }
+    #bannerimgrec{
+        height: 115px;
+    }
+}
